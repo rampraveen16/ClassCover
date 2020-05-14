@@ -1,38 +1,56 @@
-.App {
-  text-align: center;
-}
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+html {
+  font-size: 12px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+body {
+  background-color: #F3F5F7;
+  font-family: 'Jost', sans-serif;
+}
+.container {
+  background-color: #fff;
+  margin: 30px auto;
+  width: 90%;
+  overflow: hidden;
+  overflow-x:auto;
+  max-width: 1000px;
+}
+.box {
+  width: 3rem;
+  height: 4rem;
+  overflow: hidden;
   display: flex;
   flex-direction: column;
+  justify-content: flex-end;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
 
-.App-link {
-  color: #61dafb;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.box span {
+  display: block;
+}
+.dateWrap {
+  display: flex;
+  font-size: 0.7rem;
+}
+.container > section {
+  display: flex;
+  position: relative;
+}
+.title {
+  position: absolute;
+  top:-20px
+}
+.leftBlock, .rightBlock {
+  width: 50%;
+}
+.mentorList {
+  width:100%;
+}
+.mentorList article {
+  display: flex;
 }
