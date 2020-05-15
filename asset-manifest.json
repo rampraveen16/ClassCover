@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/ClassCover/static/css/main.db02e240.chunk.css",
+    "main.css": "/ClassCover/static/css/main.b17f576a.chunk.css",
     "main.js": "/ClassCover/static/js/main.729a2339.chunk.js",
     "main.js.map": "/ClassCover/static/js/main.729a2339.chunk.js.map",
     "runtime-main.js": "/ClassCover/static/js/runtime-main.f1d5f1cf.js",
@@ -8,9 +8,9 @@
     "static/js/2.d41ffb3c.chunk.js": "/ClassCover/static/js/2.d41ffb3c.chunk.js",
     "static/js/2.d41ffb3c.chunk.js.map": "/ClassCover/static/js/2.d41ffb3c.chunk.js.map",
     "index.html": "/ClassCover/index.html",
-    "precache-manifest.70759278f94703ead8264d800f9d5f79.js": "/ClassCover/precache-manifest.70759278f94703ead8264d800f9d5f79.js",
+    "precache-manifest.07ba112d2f3c6f3c05e77589ec98872b.js": "/ClassCover/precache-manifest.07ba112d2f3c6f3c05e77589ec98872b.js",
     "service-worker.js": "/ClassCover/service-worker.js",
-    "static/css/main.db02e240.chunk.css.map": "/ClassCover/static/css/main.db02e240.chunk.css.map",
+    "static/css/main.b17f576a.chunk.css.map": "/ClassCover/static/css/main.b17f576a.chunk.css.map",
     "static/js/2.d41ffb3c.chunk.js.LICENSE.txt": "/ClassCover/static/js/2.d41ffb3c.chunk.js.LICENSE.txt",
     "static/media/phone.4d72aba9.svg": "/ClassCover/static/media/phone.4d72aba9.svg",
     "static/media/star.194a7c86.svg": "/ClassCover/static/media/star.194a7c86.svg"
@@ -18,7 +18,7 @@
   "entrypoints": [
     "static/js/runtime-main.f1d5f1cf.js",
     "static/js/2.d41ffb3c.chunk.js",
-    "static/css/main.db02e240.chunk.css",
+    "static/css/main.b17f576a.chunk.css",
     "static/js/main.729a2339.chunk.js"
   ]
 }
