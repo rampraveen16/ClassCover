@@ -1,0 +1,90 @@
+
+.filterBlock {
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    ul {
+        list-style-type: none;
+    }
+    li {
+        display: inline-block;
+        vertical-align: middle;
+        margin: 0 0.5rem;
+        position: relative;
+    }
+    label {
+        font-size: 1.17rem;
+        display: inline-block;
+        text-transform: capitalize;
+        cursor: pointer;
+    }
+    .tick {
+        position: relative;
+        background: none;
+        &.a:before {
+            background-color: #5FE632;
+          }
+        &.b:before  {
+            background-color: #527DAD;
+         }
+        &.hi:before  {
+            background-color: #FDA428;
+        }
+        &.v:before  {
+            background-color: #ab10b1;
+          }
+        &.ua:before  {
+            background-color: #FC0D1B;
+          }
+        &:before {
+            content: '';
+            width: 1.2rem;
+            height: 1.2rem;
+            background: #ccc;
+            display: inline-block;
+            position: absolute;
+            left: -1.5rem;
+        }
+        &:after{
+            content: '';
+            width: 1.2rem;
+            height: 1.2rem;
+            background: #1b1b1b;
+            display: inline-block;
+            position: absolute;
+            left: -1.5rem;
+            pointer-events: none;
+            transition: 0.15s;
+            opacity: 0;
+            transform: scale(1);
+        }
+    }
+    input {
+        display: inline-block;
+    }
+    input[type=search] {
+        padding: 0.5rem 1rem 0.5rem 1rem;
+        border: 1px solid #C0C0C0;
+        border-radius: 3px;
+        &:focus {
+            outline: none;
+            border-color:#3DC0EB;
+        }
+    
+     }
+    input[type=radio] {
+        background-color:red;
+        width: 2rem;
+        visibility: hidden;
+        &:checked + label {
+            .tick{
+                &:after {
+                    opacity: 1;
+                    transform: scale(0.5);
+                }
+            }
+        }
+    }
+
+}
+

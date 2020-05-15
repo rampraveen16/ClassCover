@@ -1,0 +1,25 @@
+select.box {
+    appearance: none;
+    width: 3rem;
+    border: 0;
+    cursor: pointer;
+    border-right: 2px solid #fff;
+    &:focus {
+       outline: none;
+    }
+  }
+  .a {
+    background-color: #5FE632;
+  }
+  .b {
+    background-color: #527DAD;
+  }
+  .hi {
+    background-color: #FDA428;
+  }
+  .v {
+    background-color: #ab10b1;
+  }
+  .ua {
+    background-color: #FC0D1B;
+  }

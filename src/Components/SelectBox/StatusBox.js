@@ -1,13 +1,19 @@
 import React from "react";
-import './Box.css'
+import './Box.scss'
 function status(props)  {
+    let classes = ['box', props.data.status.toLowerCase()].join(' ')
+    let status = ['A','B','V','HI','V','UA']
+    
+    let option = status.map((ele, index)=>{
+        if(props.data.status === ele) {
+            return <option key={index} value={ele} selected="selected">{ele}</option>
+        }
+    return <option key={index} value={ele} >{ele}</option>
+    })
      return(
-         <select style={{ background: props.color}}id={props.id} onChange={props.change} className="box">
-             <option value="A">A</option>
-             <option value="A">B</option>
-             <option value="Hi">HI</option>
-             <option value="V">V</option>
-             <option value="UA">UA</option>
+         <select date={props.data.date}  status ={props.data.status}id= {props.id} className={classes} onChange={props.change}>
+              {option}
+            
          </select>
      )
 }
