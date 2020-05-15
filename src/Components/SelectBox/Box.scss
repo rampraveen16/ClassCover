@@ -7,6 +7,9 @@ select.box {
     &:focus {
        outline: none;
     }
+    option {
+      background-color: #fff;
+    }
   }
   .a {
     background-color: #5FE632;
